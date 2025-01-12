@@ -32,6 +32,7 @@ body {
 }
 
 main {
+    width: 400px;
     padding: 25px;
     background-color: var(--color1);
     color: var(--color2);
@@ -47,7 +48,7 @@ main > h1 {
     color: var(--color3);
     text-align: center;
     padding-bottom: 25px;
-    font-size: 2.5em;
+    font-size: 2.2em;
     font-family: var(--text-title);
 }
 
@@ -56,7 +57,7 @@ label {
     margin-bottom: 5px;
     font-weight: bold;
     margin-top: 10px;
-  }
+}
 
   input {
     width: 100%;
@@ -64,11 +65,11 @@ label {
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 16px;
-  }
+}
 
   input:focus {
     outline: none;
-  }
+}
 
 .button {
 	box-shadow:inset 0px 1px 0px 0px #ff9900e3;
