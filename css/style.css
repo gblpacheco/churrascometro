@@ -97,3 +97,16 @@ label {
 	position: relative;
 	top: 1px;
 }
+
+section {
+    display: none;
+}
+
+section > ol {
+    list-style: none;
+    padding-top: 15px;
+}
+
+section > ol > li {
+    padding-bottom: 8px;
+}

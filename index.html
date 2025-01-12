@@ -18,10 +18,14 @@
             <input type="number" name="Crianças" id="kids" title="Numero de crianças" placeholder="Digite a quantidade">
             <label for="">Duração em horas:</label>
             <input type="number" name="Duração" id="duration" title="Duração em horas" placeholder="Digite a duração">
-            <input type="button" value="Calcular" class="button">
+            <input type="button" value="Calcular" class="button" onclick="calcular()">
         </form>
-        <section>
-            <p id="res"></p>
+        <section id="elemento">
+            <ol>
+                <li id="resP"></li>
+                <li id="resC"></li>
+                <li id="resNA"></li>
+            </ol>
         </section>
     </main>
     <script src="js/script.js"></script>
