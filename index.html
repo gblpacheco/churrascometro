@@ -13,12 +13,19 @@
         <h1>churrascômetro</h1>
         <form action="">
             <label for="">Quantidade de adultos:</label>
-            <input type="number" name="Adultos" id="adult" title="Numero de adultos" placeholder="Digite a quantidade">
+
+            <input type="number" name="Adultos" id="adult" title="Numero de adultos" placeholder="Digite a quantidade" required min="1">
+            
             <label for="">Quantidade de crianças:</label>
-            <input type="number" name="Crianças" id="kids" title="Numero de crianças" placeholder="Digite a quantidade">
+
+            <input type="number" name="Crianças" id="kids" title="Numero de crianças" placeholder="Digite a quantidade" required min="0">
+
             <label for="">Duração em horas:</label>
-            <input type="number" name="Duração" id="duration" title="Duração em horas" placeholder="Digite a duração">
+
+            <input type="number" name="Duração" id="duration" title="Duração em horas" placeholder="Digite a duração" required min="1">
+
             <input type="button" value="Calcular" class="button" onclick="calcular()">
+
         </form>
         <section id="elemento">
             <ol>
