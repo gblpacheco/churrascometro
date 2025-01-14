@@ -108,3 +108,14 @@ section > ol {
 section > ol > li {
     padding-bottom: 8px;
 }
+
+@media (max-width: 480px) {
+    main {
+        width: 80%;
+        padding: 15px;
+    }
+
+    main > h1 {
+        font-size: 1.7em;
+    }
+}
